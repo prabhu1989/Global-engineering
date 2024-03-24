@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.header{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+
+}
+
+
+.logo{
+  margin: 0px;
+  padding: 0px;
+  color:gray ;
+  display: flex;
+  justify-content: left;
+  width: 40%;
+}
+
+.nav_bar{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: right;
+  width: 40%;
+}
+
+.nav_bar ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  
+}
+.nav_bar ul li{
+  margin: 0px;
+  padding: 35px 20px;
+  float: left;
+  cursor: pointer;
+}
+.nav_bar ul li:hover{
+  color: grey;
+
+}
